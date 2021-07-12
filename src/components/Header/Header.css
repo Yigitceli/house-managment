@@ -5,32 +5,35 @@ header {
     display: flex;
     
 }
-
-
-
 header h1 {
-    margin-left: 36%;    
+    width: 100%;
+    text-align: center;
+    padding-right: 5%;
 }
 header i {
     cursor: pointer;
     z-index: 999;
 }
 .nav-icon {
+    
     font-size: 1.5em;
     display: flex;
     align-items: center;
     padding: 1em 1em;
     
+    
+    
+    
 }
 .nav-bar {
     position:absolute;
     background-color: gold;
-    width: 25%;
+    width: 350px;
     height: 100%;
 }
 .disactive {
-    left: -25%;
+    left: -350px;
 }
 .active {
-    left: 0%;
+    left: 0px;
 }
