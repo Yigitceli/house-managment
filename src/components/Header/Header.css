@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+    border-bottom: 0.15em solid gold;
+        
+    display: flex;
+    
+}
+
+
+
+header h1 {
+    margin-left: 36%;    
+}
+header i {
+    cursor: pointer;
+    z-index: 999;
+}
+.nav-icon {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    padding: 1em 1em;
+    
+}
+.nav-bar {
+    position:absolute;
+    background-color: gold;
+    width: 25%;
+    height: 100%;
+}
+.disactive {
+    left: -25%;
+}
+.active {
+    left: 0%;
+}
