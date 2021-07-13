@@ -20,20 +20,50 @@ header i {
     display: flex;
     align-items: center;
     padding: 1em 1em;
+    position: relative;
     
-    
-    
-    
+}
+.fa-times {
+    font-size: 1.2em;
 }
 .nav-bar {
     position:absolute;
     background-color: gold;
     width: 350px;
     height: 100%;
+    border-radius: 0 5% 5% 0;
+    
 }
 .disactive {
     left: -350px;
+    transition: all 0.3s ease-in-out;
 }
 .active {
     left: 0px;
+    transition: all 0.3s ease-in-out;
 }
+ul{
+    list-style: none;
+    margin-top: 120px;
+    padding: 0 15%;
+    
+    
+}
+.link-div {
+    margin: 4% 0;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight:900;
+    width: 100%;
+    font-size: 110%;
+    
+    
+    
+}
+.fa-angle-double-right {
+    margin-right: 4%;
+    color: black;
+}
+
