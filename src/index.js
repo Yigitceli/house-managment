@@ -10,9 +10,10 @@ import {
 
 
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
+  
+    <App />,
+      
+  
   document.getElementById('root')
 );
 

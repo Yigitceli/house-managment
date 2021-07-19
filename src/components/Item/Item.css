@@ -1,0 +1,21 @@
+
+.client p {
+    width: auto;
+    display: inline-block;
+    font-size: 1vw;
+    
+    padding-right: 12%;
+    font-weight: bolder;
+    
+}
+.apartment p {
+    width: auto;
+    font-size: 1vw;
+    font-weight: bolder;
+    display: inline-block;
+    padding-right: 10%;
+}
+.item i {
+    font-size: 1.2vw;
+    margin-right: 2%;
+}

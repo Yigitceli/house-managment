@@ -25,11 +25,9 @@ function Header() {
                     <ul>
                         <div className="link-div"><Link className="link"><li><i class="fas fa-angle-double-right"></i>Daire ve Müşteri Ekle</li></Link></div>
                         <div className="link-div"><Link className="link"><li><i class="fas fa-angle-double-right"></i>Daire Kiralama/Satın Alım</li></Link></div>
-                        <div className="link-div"><Link className="link"><li><i class="fas fa-angle-double-right"></i>Daire Listele</li></Link></div>
-                        <div className="link-div"><Link className="link"><li><i class="fas fa-angle-double-right"></i>Müşteri Listele</li></Link></div>
+                        <div className="link-div"><Link className="link" to='/'><li><i class="fas fa-angle-double-right"></i>Müşteri ve Daire Listele</li></Link></div>
                         <div className="link-div"><Link className="link"><li><i class="fas fa-angle-double-right"></i>Daire Bilgileri Görüntüle</li></Link></div>
-                        <div className="link-div"><Link className="link"><li><i class="fas fa-angle-double-right"></i>Daire Güncelle</li></Link></div>
-                        <div className="link-div"><Link className="link"><li><i class="fas fa-angle-double-right"></i>Müşteri Güncelle</li></Link></div>
+                        
                         
                         
                     

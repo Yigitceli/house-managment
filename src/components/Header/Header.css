@@ -23,7 +23,7 @@ header i {
     position: relative;
     
 }
-.fa-times {
+header .fa-times {
     font-size: 1.2em;
 }
 .nav-bar {
@@ -62,7 +62,7 @@ ul{
     
     
 }
-.fa-angle-double-right {
+header .fa-angle-double-right {
     margin-right: 4%;
     color: black;
 }

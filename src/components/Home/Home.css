@@ -1,0 +1,30 @@
+.list-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clients-wrapper {
+    height: 100%;
+    border: 2px solid gold;
+    margin: 1%;
+    padding: 0.5%;
+    width: 50%;
+}
+.clients-wrapper h2 {
+    text-align: center;
+}
+
+.appartments-wrapper {
+    border: 2px solid gold;
+    height: 100%;
+    margin: 1%;
+    padding: 0.5%;
+    width: 50%;
+
+}
+.appartments-wrapper h2 {
+    text-align: center;
+}
+
