@@ -19,3 +19,6 @@
     font-size: 1.2vw;
     margin-right: 2%;
 }
+.fa-minus-square {
+    cursor: pointer;
+}

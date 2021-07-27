@@ -13,11 +13,11 @@ export default function Home(props) {
     <div className="list-container">
       <div className="clients-wrapper">
         <h2>Clients</h2>
-        <List isClient={true} items={props.clients}/>
+        <List isClient={true} items={props.clients} setClients={props.setClients}/>
       </div>
       <div className="appartments-wrapper">
         <h2>Apartments</h2>
-        <List isApartment={true} items={props.apartments}/>
+        <List isApartment={true} items={props.apartments} setApartments={props.setApartments}/>
       </div>
     </div>
   );
